@@ -1,0 +1,10 @@
+# Ignora binários e objetos compilados
+*.o
+*.out
+*.exe
+build/
+run
+
+# Ignora pastas de IDEs
+.vscode/
+.idea/
