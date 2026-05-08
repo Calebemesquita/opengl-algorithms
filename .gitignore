@@ -8,3 +8,12 @@ run
 # Ignora pastas de IDEs
 .vscode/
 .idea/
+
+
+# Ignorar arquivos de mídia e exemplos originais do professor
+Legado_GUI/3ds/
+Legado_GUI/textures/
+Legado_GUI/exemplos/
+Legado_GUI/ubuntu/
+Legado_GUI/windows/
+Legado_GUI/run/
