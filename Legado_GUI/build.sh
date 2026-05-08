@@ -1,0 +1,1 @@
+g++ -o run/GLUTdoZero20251 main.cpp bib/Camera.cpp bib/CameraDistante.cpp bib/CameraJogo.cpp bib/Desenha.cpp bib/Model3D.cpp bib/Vetor3D.cpp bib/Transform.cpp gui_glut/extra.cpp gui_glut/gui.cpp gui_glut/OpenTextures.cpp -I bib -I gui_glut -lGL -lGLU -lglut -lIL -lassimp

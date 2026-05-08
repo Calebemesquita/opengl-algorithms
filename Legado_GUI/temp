@@ -1,0 +1,56 @@
+
+
+
+// void desenhaBloco(){
+//     // Invertendo a escala no X como no seu código original
+//     glScalef(-1.0f, 1.0f, 1.0f);
+//     glBegin(GL_QUADS);
+//         // Base
+//         GUI::setColor(9, 5, 1);
+//         glNormal3f(0, -1, 0);
+//         glVertex3f(-1.0, 0.0, 1.0);
+//         glVertex3f(-1.0, 0.0, -1.0);
+//         glVertex3f(1.0, 0.0, -1.0);
+//         glVertex3f(1.0, 0.0, 1.0);
+
+//         // Face Frontal
+//         GUI::setColor(0, 9, 1);
+//         glNormal3f(1, 0, 0);
+//         glVertex3f(1, 0, 1);
+//         glVertex3f(1, 0, -1);
+//         glVertex3f(1, 1, -1);
+//         glVertex3f(1, 1, 1);
+
+//         // Face Traseira
+//         GUI::setColor(5, 1, 9);
+//         glNormal3f(0, 0, -1);
+//         glVertex3f(1, 0, -1);
+//         glVertex3f(-1, 0, -1);
+//         glVertex3f(-1, 1, -1);
+//         glVertex3f(1, 1, -1);
+
+//         // Face Esquerda
+//         GUI::setColor(5, 5, 5);
+//         glNormal3f(-1.0, 0, 0);
+//         glVertex3f(-1.0, 0, -1);
+//         glVertex3f(-1, 0, 1);
+//         glVertex3f(-1, 1, 1);
+//         glVertex3f(-1, 1, -1);
+
+//         // Topo
+//         GUI::setColor(9, 9, 9);
+//         glNormal3f(0, 0, 1);
+//         glVertex3f(-1, 0, 1);
+//         glVertex3f(1, 0, 1);
+//         glVertex3f(1, 1, 1);
+//         glVertex3f(-1, 1, 1);
+
+//         // Face Direita
+//         GUI::setColor(5, 9, 1);
+//         glNormal3f(0, 1, 0);
+//         glVertex3f(1, 1, 1);
+//         glVertex3f(1, 1, -1);
+//         glVertex3f(-1, 1, -1);
+//         glVertex3f(-1, 1, 1);
+//     glEnd();
+// }
